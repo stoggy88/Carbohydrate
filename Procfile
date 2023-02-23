@@ -1,1 +1,3 @@
-web gunicorn carbohydrate.wsgi:application --log-file - 
+web: gunicorn carbohydrate.wsgi:application --log-file - 
+python manage.py collectstatic --noinput
+manage.py migrate
