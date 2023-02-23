@@ -26,6 +26,7 @@ django-stubs
 django-test-plus
 django-werkzeug-debugger-runserver
 django-heroku
+django_plotly_dash
 djangorestframework
 dpd-static-support
 gunicorn
