@@ -25,12 +25,13 @@ django-redis
 django-stubs
 django-test-plus
 django-werkzeug-debugger-runserver
-django_heroku
+django-heroku
 djangorestframework
 dpd-static-support
 gunicorn
 plotly
 psycopg2-binary
+pillow
 pytz
 whitenoise
 
