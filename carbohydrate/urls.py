@@ -23,3 +23,4 @@ urlpatterns = [
     path('', include('editor.urls')),
     path('django_plotly_dash/', include('django_plotly_dash.urls')),
 ]
+#c
