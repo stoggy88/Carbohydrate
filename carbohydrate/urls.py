@@ -20,6 +20,6 @@ from django_plotly_dash.views import add_to_session
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('editor/', include('editor.urls')),
+    path('', include('editor.urls')),
     path('django_plotly_dash/', include('django_plotly_dash.urls')),
 ]
